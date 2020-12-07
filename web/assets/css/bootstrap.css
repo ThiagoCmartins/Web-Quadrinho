@@ -1,0 +1,59 @@
+body, ul, li, p, h1, h2, h3, h4, h5, span{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;   
+}
+h1 {
+    text-align: left;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: firebrick; 
+}
+.header img{
+    max-width: 100%;
+}
+.menu{
+    display: flex;  
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: flex;
+    padding: 10px;
+
+}
+
+.flex img {
+    max-width: 175px;
+    max-height: 238px;
+    display: block;
+    margin: 10px;
+}
+
+.flex p{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1980px;
+}
+
+.flex > div {
+    flex: 0 0 200px;
+    margin: 10px;
+}
