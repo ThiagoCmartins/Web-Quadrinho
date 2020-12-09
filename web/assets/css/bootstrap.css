@@ -36,7 +36,9 @@ h1 {
     margin-left: 10px;
 }
 .menu > div input{
+    display: flex;
     background-color: aliceblue;
+    max-width: 100%;
 }
 .menu li{
     margin-left: 10px;
