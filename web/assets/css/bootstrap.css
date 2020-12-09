@@ -34,11 +34,10 @@ h1 {
     display: flex;
     padding: 7px;
     margin-left: 10px;
+    max-width: 100%;
 }
 .menu > div input{
-    display: flex;
     background-color: aliceblue;
-    max-width: 100%;
 }
 .menu li{
     margin-left: 10px;
