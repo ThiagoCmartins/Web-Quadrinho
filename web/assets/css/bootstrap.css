@@ -27,22 +27,22 @@ h1 {
     max-width: 100%;
     margin: 10px;
 }
-.menu{
+.header .menu{
     display: flex;  
 }
-.menu > div {
+.header .menu > div {
     display: flex;
     padding: 7px;
     margin-left: 10px;
     max-width: 100%;
 }
-.menu > div input{
+.header .menu > div input{
     background-color: aliceblue;
 }
-.menu li{
+.header .menu li{
     margin-left: 10px;
 }
-.menu li a{
+.header .menu li a{
     display: flex;
     padding: 10px;
 }
