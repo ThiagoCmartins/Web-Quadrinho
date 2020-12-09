@@ -7,7 +7,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, span{
 }
 a{
     text-decoration: none;
-    color: blanchedalmond;   
+    color: aliceblue;   
 }
 h1 {
     text-align: left;
@@ -21,7 +21,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: firebrick; 
+    background-color: firebrick;
 }
 .header img{
     max-width: 100%;
@@ -29,6 +29,14 @@ h1 {
 }
 .menu{
     display: flex;  
+}
+.menu > div {
+    display: flex;
+    padding: 7px;
+    margin-left: 10px;
+}
+.menu > div input{
+    background-color: aliceblue;
 }
 .menu li{
     margin-left: 10px;
